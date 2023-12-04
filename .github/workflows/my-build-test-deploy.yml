@@ -1,3 +1,6 @@
+name: my-build-test-deploy
+on: push
+
 jobs:
   my-job:
     uses: mosa-2023/actions_learning_pathway/.github/workflows/build-test-deploy.yml@main
