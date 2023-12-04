@@ -2,4 +2,4 @@ jobs:
   my-job:
     uses: mosa-2023/actions_learning_pathway/.github/workflows/build-test-deploy.yml@main
     with:
-      node-version: 18.x
+      node-version: "18.x"
