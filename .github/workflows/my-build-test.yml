@@ -1,0 +1,8 @@
+name: my-build-test
+on: push
+
+jobs:
+  my-job:
+    uses: mosa-2023/actions_learning_pathway/.github/workflows/build-test.yml@main
+    with:
+      node-version: "18.x"
