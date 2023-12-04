@@ -4,7 +4,7 @@ on:
     # Introduced 'inputs' to define parameters that can be passed when calling this workflow
     inputs:
       node-version:
-        description: "18.x"
+        description: "Node version"
         required: true
         type: string
 jobs: 
